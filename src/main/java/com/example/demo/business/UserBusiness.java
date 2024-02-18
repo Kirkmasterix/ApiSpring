@@ -2,7 +2,7 @@ package com.example.demo.business;
 
 import com.example.demo.businessInterface.IUserBusiness;
 import com.example.demo.entity.User;
-import com.example.demo.repository.UserRepository;
+import com.example.demo.UserInterfaceCruds.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
